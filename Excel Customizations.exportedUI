@@ -203,6 +203,18 @@
                       onAction="C:\excel\vbacode.xlam!해제하기" 
                       visible="true"/>
         </mso:group>
+           
+        <!-- About 그룹: 개발자 정보 (1개) -->
+        <mso:group id="mso_c1.About" label="About" autoScale="false">
+          <mso:button idQ="x1:btn_About" 
+                      label="정보" 
+                      imageMso="Info" 
+                      size="large"
+                      screentip="VbaCode 정보"
+                      supertip="VbaCode Add-in 버전 및 개발자 정보를 표시합니다."
+                      onAction="C:\excel\vbacode.xlam!ShowAbout" 
+                      visible="true"/>
+        </mso:group>
         
       </mso:tab>
     </mso:tabs>
